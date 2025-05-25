@@ -32,7 +32,7 @@ export const useUserCreate = () => {
         ];  
       });
       callback?.();
-      addAlert(`Successfully updated ${user.name}`, { status: 200 });
+      addAlert(`Successfully created ${user.name}`, { status: 200 });
     }
   }
   );
